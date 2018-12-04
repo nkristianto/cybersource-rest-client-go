@@ -143,7 +143,7 @@
 
       var authNames = [];
       var contentTypes = ['application/json;charset=utf-8'];
-      var accepts = ['application/json;charset=utf-8'];
+      var accepts = ['application/hal+json;charset=utf-8'];
       var returnType = PtsV2PaymentsRefundPost201Response;
 
       return this.apiClient.callApi(
